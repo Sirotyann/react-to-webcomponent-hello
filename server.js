@@ -12,6 +12,5 @@ app.get('/', (req, res) => {
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
+    open('http://localhost:3000/')
 })
-
-open('http://localhost:3000/')
